@@ -5,6 +5,7 @@
 	Paradigm Shift by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 html, body, div, span, applet, object,
@@ -3880,3 +3881,69 @@ input, select, textarea {
 		}
 
 	}
+/* === PERSONNALISATION VICTOR === */
+
+/* Couleur de fond générale et texte */
+body {
+  background-color: #f5f7fb;
+  color: #1f2933;
+}
+
+/* Header principal */
+header {
+  background: linear-gradient(135deg, #1d4ed8, #22c55e);
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+/* Sommaire / navigation */
+nav.sommaire {
+  background-color: #e5edff;
+  border-bottom: 1px solid #c7d2fe;
+}
+
+nav.sommaire a {
+  color: #1d4ed8;
+  border-bottom: none;
+}
+
+nav.sommaire a:hover {
+  color: #0f766e;
+  text-decoration: underline;
+}
+
+/* Liens dans le texte */
+a {
+  color: #1d4ed8;
+  border-bottom: dotted 1px #93c5fd;
+}
+
+a:hover {
+  border-bottom-color: transparent;
+}
+
+/* Titres des sections */
+section h2 {
+  color: #0f172a;
+  border-bottom: 2px solid #c7d2fe;
+}
+
+/* Cartouche blanc pour le contenu central */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem 3rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
