@@ -3881,69 +3881,70 @@ input, select, textarea {
 		}
 
 	}
-/* === PERSONNALISATION VICTOR === */
+	body {
+  		background-color: #f5f7fb !important;
+  		color: #1f2933 !important;
+	}
 
-/* Couleur de fond générale et texte */
-body {
-  background-color: #f5f7fb;
-  color: #1f2933;
-}
+	header {
+  		background: linear-gradient(135deg, #1d4ed8, #22c55e) !important;
+  		color: #ffffff !important;
+  		padding: 2rem 1rem !important;
+  		text-align: center !important;
+	}
 
-/* Header principal */
-header {
-  background: linear-gradient(135deg, #1d4ed8, #22c55e);
-  color: #ffffff;
-  padding: 2rem 1rem;
-  text-align: center;
-}
+	header h1 {
+  		margin-bottom: 0.3rem !important;
+	}
 
-header h1 {
-  margin-bottom: 0.3rem;
-}
+	header p {
+  		margin: 0 !important;
+  		opacity: 0.9 !important;
+	}
 
-header p {
-  margin: 0;
-  opacity: 0.9;
-}
+	nav.sommaire {
+  		background-color: #e5edff !important;
+  		border-bottom: 1px solid #c7d2fe !important;
+  		position: sticky !important;
+  		top: 0 !important;
+  		z-index: 10 !important;
+	}
 
-/* Sommaire / navigation */
-nav.sommaire {
-  background-color: #e5edff;
-  border-bottom: 1px solid #c7d2fe;
-}
+	nav.sommaire ul {
+  		list-style: none !important;
+  		display: flex !important;
+  		flex-wrap: wrap !important;
+  		gap: 15px !important;
+  		padding: 10px 15px !important;
+  		margin: 0 !important;
+  		justify-content: center !important;
+	}
 
-nav.sommaire a {
-  color: #1d4ed8;
-  border-bottom: none;
-}
+	nav.sommaire a {
+  		color: #1d4ed8 !important;
+  		text-decoration: none !important;
+  		font-weight: bold !important;
+	}
 
-nav.sommaire a:hover {
-  color: #0f766e;
-  text-decoration: underline;
-}
+	nav.sommaire a:hover {
+  		color: #0f766e !important;
+  		text-decoration: underline !important;
+	}
 
-/* Liens dans le texte */
-a {
-  color: #1d4ed8;
-  border-bottom: dotted 1px #93c5fd;
-}
+	main {
+  		max-width: 900px !important;
+  		margin: 2rem auto !important;
+  		padding: 2rem 1.5rem 3rem !important;
+  		background-color: #ffffff !important;
+  		border-radius: 12px !important;
+  		box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08) !important;
+	}
 
-a:hover {
-  border-bottom-color: transparent;
-}
+	section h2 {
+  		color: #0f172a !important;
+  		border-bottom: 2px solid #c7d2fe !important;
+  		padding-bottom: 10px !important;
+  		margin-bottom: 20px !important;
+	}
 
-/* Titres des sections */
-section h2 {
-  color: #0f172a;
-  border-bottom: 2px solid #c7d2fe;
-}
 
-/* Cartouche blanc pour le contenu central */
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 2rem 1.5rem 3rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-}
